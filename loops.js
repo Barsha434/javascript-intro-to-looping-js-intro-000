@@ -27,4 +27,4 @@ function doWhileLoop(int){
   }
   while (incrementVariable()<int);
 }
-doWhileLoop(8);
+
