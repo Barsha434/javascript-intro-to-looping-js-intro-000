@@ -27,4 +27,3 @@ function doWhileLoop(int){
   }
   while (incrementVariable()<int);
 }
-
