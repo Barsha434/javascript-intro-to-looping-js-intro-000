@@ -16,13 +16,13 @@ function whileLoop(num){
 return 'done';
 }
 
-let i = 0;
-function incrementVariable(){
-  i=i+1;
-  return i;
-}
+
 function doWhileLoop(int){
   do{
+    let i = 0;
+    function incrementVariable(){
+      i=i+1;
+      return i;
     console.log ("I run once regardless.");
   }
   while (incrementVariable()<int);
